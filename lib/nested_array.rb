@@ -24,6 +24,10 @@ def assembled_matrix
 end
 
 def sorted_matrix
+   produce = [
+   conventional_produce = ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"],
+   organic_produce = ["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"  ]
+   ]
   sorted = [conventional_produce.sort, organic_produce.sort]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
